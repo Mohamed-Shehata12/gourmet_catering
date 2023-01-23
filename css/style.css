@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.layout{
+    position: absolute;
+    width: 95%;
+    height: 99.5%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(151, 150, 150, 0.5);
+    border-radius: 20px;
+}
+.line:after{
+    content: "";
+    width: 80%;
+    height: 0.5px;
+    display: block;
+    background-color: rgb(214, 216, 216);
+    margin: 120px;
+}
+
+/* Start Header  */
+.header{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+.header-content{
+    overflow: hidden;
+}
+.header .logo{
+    float: left;
+    width: 40%;
+}
+.header .nav{
+    width: 60%;
+    float: left;
+    text-align: right;
+    padding: 20px;
+}
+.header .logo h4{
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin: 10px;
+    padding: 10px 20px;
+    width: 55%;
+}
+.header .logo h4 a{
+    text-decoration: none;
+    color: black;
+}
+.header .logo h4:hover{
+    background-color: rgb(225, 225, 230);
+    border-radius: 10px;
+}
+.header .nav li{
+    display: inline-block;
+}
+.header .nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin:10px;
+    padding: 10px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+.header .nav li a:hover{
+    background-color: rgb(225, 225, 230);
+    border-radius: 10px;
+}
+/* End Header  */
+
+/* Start Section Header */
+.section-header{
+    background-image: url(../images/hamburger.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.section-header h2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px 20px;
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    color: #fff;
+    background-color: rgba(2, 3, 83, 0.863);
+}
+/* End Section Header */
+
+/* Start About */
+.about{
+    padding-top: 90px;
+}
+.about-content{
+    overflow: hidden;
+}
+.about-text{
+    float: right;
+    width: 50%;
+}
+.about-img{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.about-img img{
+    width: 95%;
+    height: 95%;
+    border-radius: 20px;
+}
+
+.about-text{
+    padding: 10px;
+}
+.about-text h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px 20px 50px;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+.about-text h6{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+.about-text p{
+    margin-bottom: 20px;
+    font-size: 19px;
+    line-height: 1.5;
+}
+.about-text p span{
+    background-color: rgb(197, 195, 195);
+}
+.about-text .about-par{
+    color: rgb(65, 64, 64);
+}
+/* End About */
+
+/* Start Menu  */
+.menu{
+    padding-top: 90px;
+}
+.menu-content{
+    overflow: hidden;
+}
+.menu-text{
+    float: left;
+    width: 50%;
+}
+.menu-text{
+    padding: 10px;
+}
+.menu-text h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px 20px 50px;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+.menu-text .text-menu {
+    margin: 60px 0;
+}
+.menu-text .text-menu h3{
+    font-size: 21px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+.menu-text .text-menu p{
+    margin: 20px 0;
+    color: rgb(153, 152, 152);
+}
+.menu-img{
+    float: right;
+    width: 50%;
+    position: relative;
+}
+.menu-img img{
+    width: 95%;
+    height: 95%;
+    border-radius: 20px;
+}
+/* End Menu  */
+
+/* Start Contact */
+.contact{
+    margin-bottom: 100px;
+}
+.contact-content h2{
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.contact-content .contact-text p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.contact-content .contact-text p span{
+    color: rgb(31, 3, 110);
+    font-size: 20px;
+}
+.contact-content .contact-text .cont-para{
+    color: rgb(31, 3, 110);
+    margin: 30px 0;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+/* End Contact */
